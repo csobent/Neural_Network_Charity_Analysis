@@ -22,6 +22,8 @@ With our knowledge of machine learning and neural networks, we will use the feat
 - What variable(s) are considered to be the features for your model? The variabes considered to be features for this model are Application type and Classification. 
 - What variable(s) are neither targets nor features, and should be removed from the input data? The recommended columns to drop during this project were EIN and NAME. They have no effect on our data. 
 ### Compiling, Training, and Evaluating the Model
-- How many neurons, layers, and activation functions did you select for your neural network model, and why? For my neural network model, I had 2 hidden layers. There were 80 neurons in the first layer and 25 neurons in the second layer. 
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- How many neurons, layers, and activation functions did you select for your neural network model, and why? For my neural network model, I had 4 hidden layers. There were 100 neurons in the first layer, 80 neurons in the second layer
+- Were you able to achieve the target model performance? No, 
+- What steps did you take to try and increase model performance? On the first attempt, I removed some features including: 'STATUS', 'USE_CASE_CommunityServ', 'USE_CASE_Heathcare','USE_CASE_Other', 'USE_CASE_Preservation', and 'USE_CASE_ProductDev. With this attempt, I included three layers with units equal to 100, 60, and 35 respectively. With that attempt, it came to an accuracy of only 0.4645 or 46.45%. On the second attempt, I tried changing the activation for two of the hidden layers from “relu” to “sigmoid.” I also added another hidden layer -- fourth layer -- with units equal to 10. It outputted the same accuracy.
+
+On the last attempt, I increased the amount of neurons in the layers and also increased the epochs. It came out with the same accuracy.
