@@ -18,8 +18,8 @@ With our knowledge of machine learning and neural networks, we will use the feat
 
 ## Results
 ### Data Preprocessing
-- What variable(s) are considered the target(s) for your model? The variable considered the target for this mode is the IS_SUCCESSFUL column. 
-- What variable(s) are considered to be the features for your model?
+- What variable(s) are considered the target(s) for your model? The variable considered the target for this model is the IS_SUCCESSFUL column. 
+- What variable(s) are considered to be the features for your model? The variabes considered to be features for this model are Application type and Classification. 
 - What variable(s) are neither targets nor features, and should be removed from the input data? The recommended columns to drop during this project were EIN and NAME. They have no effect on our data. 
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why? For my neural network model, I had 2 hidden layers. There were 80 neurons in the first layer and 25 neurons in the second layer. 
