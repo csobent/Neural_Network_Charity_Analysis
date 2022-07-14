@@ -25,8 +25,7 @@ With our knowledge of machine learning and neural networks, we will use the feat
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why? For my neural network model, I had 4 hidden layers. There were 100 neurons in the first layer, 80 neurons in the second layer
 - Were you able to achieve the target model performance? No, 
-- What steps did you take to try and increase model performance? On the first attempt, I removed some features including: 'STATUS', 'USE_CASE_CommunityServ', 'USE_CASE_Heathcare','USE_CASE_Other', 'USE_CASE_Preservation', and 'USE_CASE_ProductDev. Also, I made the test size equal to 0.30 or 30% of the data. With this attempt, I included three layers with units equal to 100, 60, and 35 respectively. With that attempt, it came to an accuracy of 0.6917 or 69.17%.
-
+- What steps did you take to try and increase model performance? 
+On the first attempt, I removed some features including: 'STATUS', 'USE_CASE_CommunityServ', 'USE_CASE_Heathcare','USE_CASE_Other', 'USE_CASE_Preservation', and 'USE_CASE_ProductDev. Also, I made the test size equal to 0.30 or 30% of the data. With this attempt, I included three layers with units equal to 100, 60, and 35 respectively. It came to an accuracy of 0.6917 or 69.17%.
 On the second attempt, I added a hidden layer with 10 units (or neurons) and with a different activation of "sigmoid." With this attempt, the accuracy came out to be 0.5169 or 51.69%. 
-
 On the last attempt, I changed the test size to 0.20 or 20%. With this attempt, the accuracy increased slightly to 0.5200 or 52%.
